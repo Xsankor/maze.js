@@ -5,6 +5,7 @@ let y = 0;
 let timer;
 let dx = 0;
 let dy = 0;
+let reward = document.querySelector('iframe');
 
 window.onload = function(){
  canvas = document.querySelector('#canvas');
@@ -75,7 +76,7 @@ function redraw(){
  }
  
  if (y >= 488 && x >= 260) {
-        alert("Ты выбрался!");
+        reward.style.display = 'block';
         dy = -3;
     }
 
