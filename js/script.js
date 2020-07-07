@@ -99,3 +99,10 @@ function checkCollision(){
     }
     return false;
 }
+
+
+document.onclick = coordinats;
+function coordinats(event){
+let crd = `${event.clientX}:${event.clientY}`;
+console.log(crd);
+}
