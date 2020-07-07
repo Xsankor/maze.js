@@ -101,7 +101,7 @@ function checkCollision(){
 }
 
 
-canvas.onclick = coordinats;
+context.onclick = coordinats;
 function coordinats(event){
 let crd = `${event.clientX}:${event.clientY}`;
 console.log(crd);
