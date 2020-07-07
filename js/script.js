@@ -73,8 +73,7 @@ function redraw(){
    }
 
  }
- console.log(y , x);
- if (y >= 251 && x >= 475) {
+ if (y >= 475 && x >= 251) {
         canvas.style.display = 'none';
         reward.style.display = 'block';
         dy = -3;
