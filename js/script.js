@@ -85,7 +85,7 @@ function checkCollision(){
     let imgData = context.getImageData(x - 1, y - 1, 3, 3);
     let pixels = imgData.data;
 
-    for(let i = 0, n = pixels.length;  i < n; i += 4){
+    for(let i = 0, n = pixels.length;  i < n; i += 1){
         let red = pixels[i];
         let blue = pixels[i + 1];
         let green = pixels[i + 2];
