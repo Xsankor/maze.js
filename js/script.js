@@ -1,8 +1,3 @@
-document.onclick = coordinats;
-function coordinats(event){
-let crd = `${event.clientX}:${event.clientY}`;
-console.log(crd);
-}
 let canvas;
 let context;
 let x = 0;
@@ -79,7 +74,7 @@ function redraw(){
 
  }
  
- if (y > 575) {
+ if (y >= 488 && x >= 260) {
         alert("Ты выбрался!");
         dy = -3;
     }
