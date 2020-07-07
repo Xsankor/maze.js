@@ -65,7 +65,6 @@ function redraw(){
  if(dx != 0 || dy != 0){
    x += dx;
    y += dy;
-console.log(x , y);
    if(checkCollision()){
        x -= dx;
        y -= dy;
@@ -75,7 +74,7 @@ console.log(x , y);
 
  }
  console.log(y , x);
- if (y >= 490 && x >= 260) {
+ if (y >= 251 && x >= 475) {
         canvas.style.display = 'none';
         reward.style.display = 'block';
         dy = -3;
