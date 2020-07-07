@@ -13,7 +13,7 @@ window.onload = function(){
   
  window.addEventListener('keydown', pressKey);
   
- drawMaze('img/maze2.png', 230, 1);
+ drawMaze('img/maze2.png', 260, 490);
 }
 
 function drawMaze(mazeFile, startX, startY){
@@ -31,7 +31,7 @@ function drawMaze(mazeFile, startX, startY){
 
     context.beginPath();
     context.fillStyle = 'rgb(255, 0, 0)';
-    context.rect(260, 490, 2, 2);
+    context.rect(x, y, 2, 2);
     context.fill();
     context.closePath();
     
@@ -49,7 +49,7 @@ function drawMaze(mazeFile, startX, startY){
 
      context.beginPath();
      context.fillStyle = 'rgb(255, 0, 0)';
-     context.rect(260, 490, 2, 2);
+     context.rect(x, y, 2, 2);
      context.fill();
      context.closePath();
 
