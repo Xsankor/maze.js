@@ -3,11 +3,6 @@ canvas {
   
   }
   
-  img {
-    width: 10px;
-    display: none;
-  }
-  
 iframe{
  display: none;
 }
