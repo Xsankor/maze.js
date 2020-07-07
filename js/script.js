@@ -74,7 +74,7 @@ function redraw(){
    }
 
  }
- 
+ console.log(y , x);
  if (y >= 490 && x >= 260) {
         canvas.style.display = 'none';
         reward.style.display = 'block';
