@@ -13,7 +13,7 @@ window.onload = function(){
   
  window.addEventListener('keydown', pressKey);
   
- drawMaze('img/maze2.png', 230, 1);
+ drawMaze('img/maze2.png', 230, 470);
 }
 
 function drawMaze(mazeFile, startX, startY){
@@ -73,7 +73,7 @@ function redraw(){
    }
 
  }
- if (y >= 475 && x >= 251) {
+ if (y >= 475 && x >= 260) {
         canvas.style.display = 'none';
         reward.style.display = 'block';
         dy = -3;
