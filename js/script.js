@@ -1,3 +1,8 @@
+document.onclick = coordinats;
+function coordinats(event){
+let crd = `${event.clientX}:${event.clientY}`;
+console.log(crd);
+}
 let canvas;
 let context;
 let x = 0;
@@ -98,11 +103,4 @@ function checkCollision(){
         }
     }
     return false;
-}
-
-
-document.onclick = coordinats;
-function coordinats(event){
-let crd = `${event.clientX}:${event.clientY}`;
-console.log(crd);
 }
