@@ -47,7 +47,7 @@ function drawMaze(mazeFile, startX, startY){
      dy = 0;
 
      context.beginPath();
-     context.fillStyle = 'rgb(0, 0, 0)';
+     context.fillStyle = 'rgb(255, 0, 0)';
      context.rect(x, y, 2, 2);
      context.fill();
      context.closePath();
