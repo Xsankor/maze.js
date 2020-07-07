@@ -13,7 +13,7 @@ window.onload = function(){
   
  window.addEventListener('keydown', pressKey);
   
- drawMaze('img/maze2.png', 260, 490);
+ drawMaze('img/maze2.png', 230, 1);
 }
 
 function drawMaze(mazeFile, startX, startY){
@@ -65,7 +65,7 @@ function redraw(){
  if(dx != 0 || dy != 0){
    x += dx;
    y += dy;
-
+console.log(x , y);
    if(checkCollision()){
        x -= dx;
        y -= dy;
