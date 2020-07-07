@@ -13,7 +13,7 @@ window.onload = function(){
   
  window.addEventListener('keydown', pressKey);
   
- drawMaze('img/maze2.png', 230, 470);
+ drawMaze('img/maze2.png', 230, 1);
 }
 
 function drawMaze(mazeFile, startX, startY){
