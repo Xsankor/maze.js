@@ -66,16 +66,18 @@ function redraw(){
    y += dy;
 
    if(checkCollision()){
-       x = dx;
-       y = dy;
+       x -= dx;
+       y -= dy;
        dx = 0;
        dy = 0;
    }
 
-// let imgFace = document.querySelector('#face');
- //context.drawImage(imgFace, x, y);
  }
- //timer = setTimeout('redraw()', 10);
+ 
+ if (y > 575) {
+        alert("Ты выбрался!");
+        dy = -3;
+    }
 
 }
 
